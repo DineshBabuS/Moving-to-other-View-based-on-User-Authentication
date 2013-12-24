@@ -1,0 +1,26 @@
+-(IBAction)Login;
+{
+    if (![self authenticateUser:usernameField.text password:passwordField.text]) {
+        // User not authenticated
+        UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Incorrect Password" message:@"This password is incorrect." delegate:self cancelButtonTitle:@"Dismiss" otherButtonTitles:nil];
+        [alert show];
+    }
+}
+
+- (BOOL)authenticateUser:(NSString *)inputUsername password:(NSString *)inputPassword {
+    for (User *user in users) {
+        if ([user.username isEqualToString:inputUsername]) {
+            if ([user.password isEqualToString:inputPassword]) {
+                
+                ViewTwo *second = [self.storyboard instantiateViewControllerWithIdentifier:@"ViewTwo"];
+                
+                second.user = user; // This is the important line
+                
+                [self presentViewController:second animated:YES completion:nil];
+                
+                return YES;
+            }
+        }
+    }
+    return NO;
+}
