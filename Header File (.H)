@@ -1,0 +1,12 @@
+@interface BIDViewController : UIViewController
+{
+    //Text Fields to obtain inputs from app 
+    IBOutlet UITextField *usernameField;
+    IBOutlet UITextField *passwordField;
+
+}
+
+//Button click for Login 
+-(IBAction)Login;
+
+@end
