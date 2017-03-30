@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Blueprint name="DoesNotMatter" tagPrefix="Metro1">
+	<Tags>
+		<Tag name="AC_PMEDIA" type="raw" dataType="float" description="Presion media calculada de 0 a FF (1275bar)" device="Metro1">
+			<Datasource address="" dataType="float" />
+		</Tag>
+		<Tag name="ANUL_LAZOS_FREN" type="raw" dataType="bool" description="Machine In Alarm" device="Metro1">
+			<Datasource address="" dataType="bool" />
+		</Tag>	
+	</Tags>
+	<Devices>
+		 <Device name="Metro5" description="Metro Green Line" protocol="IgsBase">
+			<Attributes>
+				<Attribute name="ClassId">uCON</Attribute>
+				<Attribute name="$DEVICE_ID">INTELLUTION.INTELLUTIONGATEWAYO</Attribute>
+				<Attribute name="$DESCRIPTION">Metro5</Attribute>
+				<Attribute name="$RESOURCE_ID">Metro5</Attribute>
+				<Attribute name="LINE">Line5</Attribute>
+			</Attributes>
+		</Device>
+	</Devices>
+	<Assets>
+		<Asset name="TMB" type="Enterprise">
+            <Asset name="Barcelona" type="Site">
+                <Asset name="Line 5" type="Area">
+                    <Asset name="Green line" type="ProcessCell">
+						<Asset name="Metro 1" type="Unit" id="1"/>
+                        <!-- <Asset  id ="1" name="MM11" type="Unit" class="Downtime">
+							<Properties>
+								<Property type="string" name="Downtime" value="true"/>
+								<Property type="string" name="DowntimeAnalyticConfigured" value="false"/>
+								<Property type="string" name="Production" value="true"/>
+								<Property type="string" name="OperationAnalyticConfigured" value="false"/>
+								<Property type="string" name="Monitor_HB" value="true"/>
+								<Property name="VisualizedTags" type="string" value="ACTUAL_FEED,BLOCK,FRO,OPER_RUNNING,OPNUMBER,PARTCOUNT,PROGRAM,RUNNING,SERIALNUMBER,STATE,TOOL,HB"/>
+								<Property name="VisualizedTagDescr" type="string" value="Actual Feed,Block,Feed rate Override,Is Operation Running,Operation Number,Part Count,Part Program Name,Is Running,Serial Number,State,Tool Name,Edge HeartBeat"/>
+							</Properties>
+						</Asset> -->
+                    </Asset>
+                </Asset>
+            </Asset>
+        </Asset>
+	</Assets>
+</Blueprint>
+
+

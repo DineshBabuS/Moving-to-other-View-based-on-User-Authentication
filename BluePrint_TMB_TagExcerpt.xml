@@ -1,0 +1,812 @@
+<Tags>
+  <Tag name="CCU_IHM_CargaMA1" type="raw" dataType="float" description="Weight in % for the load in coach MA1" device="Metro1">
+    <Datasource address="" dataType="float"/>
+  </Tag>
+  <Tag name="CCU_IHM_CargaMA2" type="raw" dataType="float" description="Weight in % for the load in coach MA2" device="Metro1">
+    <Datasource address="" dataType="float"/>
+  </Tag>
+  <Tag name="CCU_REG_cod_via" type="raw" dataType="float" description="Codigo de via/direction code 0= Via 1,  1= Via 2" device="Metro1">
+    <Datasource address="" dataType="float"/>
+  </Tag>
+  <Tag name="I313X10_06b_TBS_DO" type="raw" dataType="bool" description="Funcionamiento en Distancia Objetivo" device="Metro1">
+    <Datasource address="" dataType="bool"/>
+  </Tag>
+  <Tag name="CCU_PuAnula_MB2_PU8" type="raw" dataType="bool" description="" device="Metro1">
+    <Datasource address="" dataType="bool"/>
+  </Tag>
+  <Tag name="CCU_PuAnula_MA2_PU8" type="raw" dataType="bool" description="" device="Metro1">
+    <Datasource address="" dataType="bool"/>
+  </Tag>
+  <Tag name="I211X10_24b_DES_OK_P3" type="raw" dataType="bool" description="Indica que el desbloqueo de la puerta 3 esta en posicion normal de MB1" device="Metro1">
+    <Datasource address="" dataType="bool"/>
+  </Tag>
+  <Tag name="I311X10_24b_DES_OK_P3" type="raw" dataType="bool" description="Indica que el desbloqueo de la puerta 3 esta en posicion normal de R" device="Metro1">
+    <Datasource address="" dataType="bool"/>
+  </Tag>
+  <Tag name="I411X10_24b_DES_OK_P3" type="raw" dataType="bool" description="Indica que el desbloqueo de la puerta 3 esta en posicion normal de MB2" device="Metro1">
+    <Datasource address="" dataType="bool"/>
+  </Tag>
+  <Tag name="TCU4_Filter_Capacitor_Voltage" type="raw" dataType="float" description="" device="Metro1">
+    <Datasource address="" dataType="float"/>
+  </Tag>
+  <Tag name="CCU_PuDesbl_RI_PU1" type="raw" dataType="bool" description="" device="Metro1">
+    <Datasource address="" dataType="bool"/>
+  </Tag>
+  <Tag name="CCU_PuDesbl_RI_PU2" type="raw" dataType="bool" description="" device="Metro1">
+    <Datasource address="" dataType="bool"/>
+  </Tag>
+  <Tag name="CCU_PuDesbl_RI_PU3" type="raw" dataType="bool" description="" device="Metro1">
+    <Datasource address="" dataType="bool"/>
+  </Tag>
+  <Tag name="CCU_PuDesbl_RI_PU4" type="raw" dataType="bool" description="" device="Metro1">
+    <Datasource address="" dataType="bool"/>
+  </Tag>
+  <Tag name="CCU_PuDesbl_RI_PU5" type="raw" dataType="bool" description="" device="Metro1">
+    <Datasource address="" dataType="bool"/>
+  </Tag>
+  <Tag name="CCU_PuDesbl_RI_PU6" type="raw" dataType="bool" description="" device="Metro1">
+    <Datasource address="" dataType="bool"/>
+  </Tag>
+  <Tag name="CCU_PuDesbl_RI_PU7" type="raw" dataType="bool" description="" device="Metro1">
+    <Datasource address="" dataType="bool"/>
+  </Tag>
+  <Tag name="CCU_PuDesbl_RI_PU8" type="raw" dataType="bool" description="" device="Metro1">
+    <Datasource address="" dataType="bool"/>
+  </Tag>
+  <Tag name="I506X10_18b_PUL_BYP_TR" type="raw" dataType="bool" description="El pulsador de anulacion de lazo de traccion esta activado" device="Metro1">
+    <Datasource address="" dataType="bool"/>
+  </Tag>
+  <Tag name="I106X10_18b_PUL_BYP_TR" type="raw" dataType="bool" description="El pulsador de anulacion de lazo de traccion esta activado" device="Metro1">
+    <Datasource address="" dataType="bool"/>
+  </Tag>
+  <Tag name="TCU2_Filter_Capacitor_Voltage" type="raw" dataType="float" description="" device="Metro1">
+    <Datasource address="" dataType="float"/>
+  </Tag>
+  <Tag name="CCU_IHM_CabMA1" type="raw" dataType="bool" description="Cabina habilitada en MA1" device="Metro1">
+    <Datasource address="" dataType="bool"/>
+  </Tag>
+  <Tag name="MODO_COND" type="raw" dataType="string" description="driving mode" device="Metro1">
+    <Datasource address="" dataType="string"/>
+  </Tag>
+  <Tag name="CCU_IHM_CABMA2" type="raw" dataType="bool" description="Cabina habilitada en MA2" device="Metro1">
+    <Datasource address="" dataType="bool"/>
+  </Tag>
+  <Tag name="TCU5_Filter_Capacitor_Voltage" type="raw" dataType="float" description="" device="Metro1">
+    <Datasource address="" dataType="float"/>
+  </Tag>
+  <Tag name="I508X12_02b_PUL_AN_LF" type="raw" dataType="bool" description="El pulsador de anulacion de lazo de emergencia esta activado" device="Metro1">
+    <Datasource address="" dataType="bool"/>
+  </Tag>
+  <Tag name="I108X12_02b_PUL_AN_LF" type="raw" dataType="bool" description="El pulsador de anulacion de lazo de emergencia esta activado" device="Metro1">
+    <Datasource address="" dataType="bool"/>
+  </Tag>
+  <Tag name="I313X10_16B_TBS_M25" type="raw" dataType="bool" description="Modo Manual +25" device="Metro1">
+    <Datasource address="" dataType="bool"/>
+  </Tag>
+  <Tag name="I211X11_04b_TIR_P1" type="raw" dataType="bool" description="Se ha activado el tirador de emergencia de la puerta 1 de MB1" device="Metro1">
+    <Datasource address="" dataType="bool"/>
+  </Tag>
+  <Tag name="I411X11_04b_TIR_P1" type="raw" dataType="bool" description="Se ha activado el tirador de emergencia de la puerta 1 de MB2" device="Metro1">
+    <Datasource address="" dataType="bool"/>
+  </Tag>
+  <Tag name="I211X11_06b_TIR_P5" type="raw" dataType="bool" description="Se ha activado el tirador de emergencia de la puerta 5 de MB1" device="Metro1">
+    <Datasource address="" dataType="bool"/>
+  </Tag>
+  <Tag name="I411X11_06b_TIR_P5" type="raw" dataType="bool" description="Se ha activado el tirador de emergencia de la puerta 5 de MB2" device="Metro1">
+    <Datasource address="" dataType="bool"/>
+  </Tag>
+  <Tag name="I211X11_08b_TIR_P8" type="raw" dataType="bool" description="Se ha activado el tirador de emergencia de la puerta 8 de MB1" device="Metro1">
+    <Datasource address="" dataType="bool"/>
+  </Tag>
+  <Tag name="I411X11_08b_TIR_P8" type="raw" dataType="bool" description="Se ha activado el tirador de emergencia de la puerta 8 de MB2" device="Metro1">
+    <Datasource address="" dataType="bool"/>
+  </Tag>
+  <Tag name="CCU_PuAnula_MA1_PU8" type="raw" dataType="bool" description="" device="Metro1">
+    <Datasource address="" dataType="bool"/>
+  </Tag>
+  <Tag name="CCU_PuAnula_MB1_PU8" type="raw" dataType="bool" description="" device="Metro1">
+    <Datasource address="" dataType="bool"/>
+  </Tag>
+  <Tag name="CCU_IHM_PMA_EstaCompMA1" type="raw" dataType="bool" description="" device="Metro1">
+    <Datasource address="" dataType="bool"/>
+  </Tag>
+  <Tag name="CCU_IHM_PMA_EstaCompMA2" type="raw" dataType="bool" description="" device="Metro1">
+    <Datasource address="" dataType="bool"/>
+  </Tag>
+  <Tag name="I312X09_14b_TBS_ATP" type="raw" dataType="bool" description="Modo ATP" device="Metro1">
+    <Datasource address="" dataType="bool"/>
+  </Tag>
+  <Tag name="BCU1_B10_MA1_DM1" type="raw" dataType="float" description="Presion de cilindros de freno coche MA1/Cilinder Pression MA1" device="Metro1">
+    <Datasource address="" dataType="float"/>
+  </Tag>
+  <Tag name="BCU1_B10_MA2_DM1" type="raw" dataType="float" description="Presion de cilindros de freno coche MA2" device="Metro1">
+    <Datasource address="" dataType="float"/>
+  </Tag>
+  <Tag name="CCU_PuAnula_MA1_PU4" type="raw" dataType="bool" description="" device="Metro1">
+    <Datasource address="" dataType="bool"/>
+  </Tag>
+  <Tag name="CCU_PuAnula_MB1_PU4" type="raw" dataType="bool" description="" device="Metro1">
+    <Datasource address="" dataType="bool"/>
+  </Tag>
+  <Tag name="I506X12_08b_PUL_ANU_TS" type="raw" dataType="bool" description="Notifica si esta accionado el pulsador de anulacion de TrenStop" device="Metro1">
+    <Datasource address="" dataType="bool"/>
+  </Tag>
+  <Tag name="I106X12_08b_PUL_ANU_TS" type="raw" dataType="bool" description="Notifica si esta accionado el pulsador de anulacion de TrenStop" device="Metro1">
+    <Datasource address="" dataType="bool"/>
+  </Tag>
+  <Tag name="CCU_PuDesbl_MB2_PU8" type="raw" dataType="bool" description="" device="Metro1">
+    <Datasource address="" dataType="bool"/>
+  </Tag>
+  <Tag name="CCU_PuDesbl_MA2_PU8" type="raw" dataType="bool" description="" device="Metro1">
+    <Datasource address="" dataType="bool"/>
+  </Tag>
+  <Tag name="CCU_PuAnula_MA1_PU5" type="raw" dataType="bool" description="" device="Metro1">
+    <Datasource address="" dataType="bool"/>
+  </Tag>
+  <Tag name="CCU_PuAnula_MB1_PU5" type="raw" dataType="bool" description="" device="Metro1">
+    <Datasource address="" dataType="bool"/>
+  </Tag>
+  <Tag name="CCU_PuAnula_MA1_PU6" type="raw" dataType="bool" description="" device="Metro1">
+    <Datasource address="" dataType="bool"/>
+  </Tag>
+  <Tag name="CCU_PuAnula_MB1_PU6" type="raw" dataType="bool" description="" device="Metro1">
+    <Datasource address="" dataType="bool"/>
+  </Tag>
+  <Tag name="TIR_ALARM" type="raw" dataType="string" description="alarms" device="Metro1">
+    <Datasource address="" dataType="string"/>
+  </Tag>
+  <Tag name="CCU_PuAnula_MA1_PU7" type="raw" dataType="bool" description="" device="Metro1">
+    <Datasource address="" dataType="bool"/>
+  </Tag>
+  <Tag name="CCU_PuAnula_MB1_PU7" type="raw" dataType="bool" description="" device="Metro1">
+    <Datasource address="" dataType="bool"/>
+  </Tag>
+  <Tag name="TCU1_Brake_Torque_Achieved" type="raw" dataType="float" description="Fuerza realizada en freno en este momento" device="Metro1">
+    <Datasource address="" dataType="float"/>
+  </Tag>
+  <Tag name="CCU_PuDesbl_MB2_PU5" type="raw" dataType="bool" description="" device="Metro1">
+    <Datasource address="" dataType="bool"/>
+  </Tag>
+  <Tag name="CCU_PuDesbl_MA2_PU5" type="raw" dataType="bool" description="" device="Metro1">
+    <Datasource address="" dataType="bool"/>
+  </Tag>
+  <Tag name="I507X12_18b_PUL_BYP_TR" type="raw" dataType="bool" description="El pulsador de anulacion de lazo de traccion esta activado" device="Metro1">
+    <Datasource address="" dataType="bool"/>
+  </Tag>
+  <Tag name="I107X12_18b_PUL_BYP_TR" type="raw" dataType="bool" description="El pulsador de anulacion de lazo de traccion esta activado" device="Metro1">
+    <Datasource address="" dataType="bool"/>
+  </Tag>
+  <Tag name="TCU5_Brake_Torque_Achieved" type="raw" dataType="float" description="Fuerza realizada en freno en este momento" device="Metro1">
+    <Datasource address="" dataType="float"/>
+  </Tag>
+  <Tag name="CCU_PuDesbl_MB2_PU4" type="raw" dataType="bool" description="" device="Metro1">
+    <Datasource address="" dataType="bool"/>
+  </Tag>
+  <Tag name="CCU_PuDesbl_MA2_PU4" type="raw" dataType="bool" description="" device="Metro1">
+    <Datasource address="" dataType="bool"/>
+  </Tag>
+  <Tag name="CCU_PuAnula_MA1_PU1" type="raw" dataType="bool" description="" device="Metro1">
+    <Datasource address="" dataType="bool"/>
+  </Tag>
+  <Tag name="CCU_PuAnula_MB1_PU1" type="raw" dataType="bool" description="" device="Metro1">
+    <Datasource address="" dataType="bool"/>
+  </Tag>
+  <Tag name="I212X12_24b_DES_OK_P6" type="raw" dataType="bool" description="Indica que el desbloqueo de la puerta 6 esta en posicion normal de MB1" device="Metro1">
+    <Datasource address="" dataType="bool"/>
+  </Tag>
+  <Tag name="I312X12_24b_DES_OK_P6" type="raw" dataType="bool" description="Indica que el desbloqueo de la puerta 6 esta en posicion normal de R" device="Metro1">
+    <Datasource address="" dataType="bool"/>
+  </Tag>
+  <Tag name="I412X12_24b_DES_OK_P6" type="raw" dataType="bool" description="Indica que el desbloqueo de la puerta 6 esta en posicion normal de MB2" device="Metro1">
+    <Datasource address="" dataType="bool"/>
+  </Tag>
+  <Tag name="CCU_ICO_Trac" type="raw" dataType="bool" description="Variable de activacion del tercer icono de la franja superior (empezando por la" device="Metro1">
+    <Datasource address="" dataType="bool"/>
+  </Tag>
+  <Tag name="CCU_PuDesbl_MB2_PU7" type="raw" dataType="bool" description="" device="Metro1">
+    <Datasource address="" dataType="bool"/>
+  </Tag>
+  <Tag name="CCU_PuDesbl_MA2_PU7" type="raw" dataType="bool" description="" device="Metro1">
+    <Datasource address="" dataType="bool"/>
+  </Tag>
+  <Tag name="CCU_PuAnula_MA1_PU2" type="raw" dataType="bool" description="" device="Metro1">
+    <Datasource address="" dataType="bool"/>
+  </Tag>
+  <Tag name="CCU_PuAnula_MB1_PU2" type="raw" dataType="bool" description="" device="Metro1">
+    <Datasource address="" dataType="bool"/>
+  </Tag>
+  <Tag name="TIR_DESBL" type="raw" dataType="string" description="alarms" device="Metro1">
+    <Datasource address="" dataType="string"/>
+  </Tag>
+  <Tag name="BCU1_B10_R_dM2" type="raw" dataType="float" description="Presion de cilindros de freno coche R" device="Metro1">
+    <Datasource address="" dataType="float"/>
+  </Tag>
+  <Tag name="CCU_PuDesbl_MB2_PU6" type="raw" dataType="bool" description="" device="Metro1">
+    <Datasource address="" dataType="bool"/>
+  </Tag>
+  <Tag name="CCU_PuDesbl_MA2_PU6" type="raw" dataType="bool" description="" device="Metro1">
+    <Datasource address="" dataType="bool"/>
+  </Tag>
+  <Tag name="CCU_PuAnula_MA1_PU3" type="raw" dataType="bool" description="" device="Metro1">
+    <Datasource address="" dataType="bool"/>
+  </Tag>
+  <Tag name="CCU_PuAnula_MB1_PU3" type="raw" dataType="bool" description="" device="Metro1">
+    <Datasource address="" dataType="bool"/>
+  </Tag>
+  <Tag name="CCU_PuDesbl_MB2_PU1" type="raw" dataType="bool" description="" device="Metro1">
+    <Datasource address="" dataType="bool"/>
+  </Tag>
+  <Tag name="CCU_PuDesbl_MA2_PU1" type="raw" dataType="bool" description="" device="Metro1">
+    <Datasource address="" dataType="bool"/>
+  </Tag>
+  <Tag name="COMPOSICION" type="raw" dataType="string" description="" device="Metro1">
+    <Datasource address="" dataType="string"/>
+  </Tag>
+  <Tag name="I312X09_26b_TBS_LLAVE" type="raw" dataType="bool" description="Llave especial" device="Metro1">
+    <Datasource address="" dataType="bool"/>
+  </Tag>
+  <Tag name="CCU_PuDesbl_MB2_PU3" type="raw" dataType="bool" description="" device="Metro1">
+    <Datasource address="" dataType="bool"/>
+  </Tag>
+  <Tag name="CCU_PuDesbl_MA2_PU3" type="raw" dataType="bool" description="" device="Metro1">
+    <Datasource address="" dataType="bool"/>
+  </Tag>
+  <Tag name="CCU_PuDesbl_MB2_PU2" type="raw" dataType="bool" description="" device="Metro1">
+    <Datasource address="" dataType="bool"/>
+  </Tag>
+  <Tag name="CCU_PuDesbl_MA2_PU2" type="raw" dataType="bool" description="" device="Metro1">
+    <Datasource address="" dataType="bool"/>
+  </Tag>
+  <Tag name="CCU_Temp_ext" type="raw" dataType="float" description="Temperatura exterior media obtenida desde los AAs" device="Metro1">
+    <Datasource address="" dataType="float"/>
+  </Tag>
+  <Tag name="CCU_IHM_PMA_EstaTracMA1" type="raw" dataType="bool" description="Estado de Traccion MA1 para pantalla PMA" device="Metro1">
+    <Datasource address="" dataType="bool"/>
+  </Tag>
+  <Tag name="CCU_IHM_PMA_EstaTracMA2" type="raw" dataType="bool" description="Estado de Traccion MA2 para pantalla PMA" device="Metro1">
+    <Datasource address="" dataType="bool"/>
+  </Tag>
+  <Tag name="CCU_IHM_PMA_EstaAireRi" type="raw" dataType="bool" description="" device="Metro1">
+    <Datasource address="" dataType="bool"/>
+  </Tag>
+  <Tag name="CCU_IHM_PMA_EstaTracMB1" type="raw" dataType="bool" description="Estado de Traccion MB1 para pantalla PMA" device="Metro1">
+    <Datasource address="" dataType="bool"/>
+  </Tag>
+  <Tag name="CCU_IHM_PMA_EstaTracMB2" type="raw" dataType="bool" description="Estado de Traccion MB2 para pantalla PMA" device="Metro1">
+    <Datasource address="" dataType="bool"/>
+  </Tag>
+  <Tag name="I103X12_22b_HM_OK" type="raw" dataType="bool" description="Notifica que el hombre muerto se realiza correctamente  Si se lee cero implica q" device="Metro1">
+    <Datasource address="" dataType="bool"/>
+  </Tag>
+  <Tag name="FR_LAZO_OK" type="raw" dataType="bool" description="El lazo de freno esta cerrado" device="Metro1">
+    <Datasource address="" dataType="bool"/>
+  </Tag>
+  <Tag name="CCU_ICO_Pant" type="raw" dataType="bool" description="Variable de activacion del icono de la franja superior de mas a la izquierda Si" device="Metro1">
+    <Datasource address="" dataType="bool"/>
+  </Tag>
+  <Tag name="AC_PMEDIA" type="raw" dataType="float" description="Presion media calculada de 0 a FF (1275bar)" device="Metro1">
+    <Datasource address="" dataType="float"/>
+  </Tag>
+  <Tag name="NUM_ESTACION" type="raw" dataType="string" description="{LINE}" device="Metro1">
+    <Datasource address="" dataType="string"/>
+  </Tag>
+  <Tag name="I103X12_12b_TIR_P1" type="raw" dataType="bool" description="Se ha activado el tirador de emergencia de la puerta 1 de MA1" device="Metro1">
+    <Datasource address="" dataType="bool"/>
+  </Tag>
+  <Tag name="I503X12_16b_TIR_P8" type="raw" dataType="bool" description="Se ha activado el tirador de emergencia de la puerta 1 de MA2" device="Metro1">
+    <Datasource address="" dataType="bool"/>
+  </Tag>
+  <Tag name="I103X12_18b_TIR_P4" type="raw" dataType="bool" description="Se ha activado el tirador de emergencia de la puerta 4 de MA1" device="Metro1">
+    <Datasource address="" dataType="bool"/>
+  </Tag>
+  <Tag name="I503X12_14b_TIR_P5" type="raw" dataType="bool" description="Se ha activado el tirador de emergencia de la puerta 4 de MA2" device="Metro1">
+    <Datasource address="" dataType="bool"/>
+  </Tag>
+  <Tag name="I103X12_14b_TIR_P5" type="raw" dataType="bool" description="Se ha activado el tirador de emergencia de la puerta 5 de MA1" device="Metro1">
+    <Datasource address="" dataType="bool"/>
+  </Tag>
+  <Tag name="I503X12_18b_TIR_P4" type="raw" dataType="bool" description="Se ha activado el tirador de emergencia de la puerta 5 de MA2" device="Metro1">
+    <Datasource address="" dataType="bool"/>
+  </Tag>
+  <Tag name="I103X12_16b_TIR_P8" type="raw" dataType="bool" description="Se ha activado el tirador de emergencia de la puerta 8 de MA1" device="Metro1">
+    <Datasource address="" dataType="bool"/>
+  </Tag>
+  <Tag name="I503X12_12b_TIR_P1" type="raw" dataType="bool" description="Se ha activado el tirador de emergencia de la puerta 8 de MA2" device="Metro1">
+    <Datasource address="" dataType="bool"/>
+  </Tag>
+  <Tag name="CCU_NumeroCirculacion" type="raw" dataType="float" description="" device="Metro1">
+    <Datasource address="" dataType="float"/>
+  </Tag>
+  <Tag name="CCU_ICO_Puer" type="raw" dataType="bool" description="Icono de puertas abiertas" device="Metro1">
+    <Datasource address="" dataType="bool"/>
+  </Tag>
+  <Tag name="I313X10_26b_TBS_LLAVE" type="raw" dataType="bool" description="Llave especial" device="Metro1">
+    <Datasource address="" dataType="bool"/>
+  </Tag>
+  <Tag name="CCU_SERIE_R" type="raw" dataType="float" description="serial number coach R" device="Metro1">
+    <Datasource address="" dataType="float"/>
+  </Tag>
+  <Tag name="CCU_IHM_PMA_EstaAireMA1" type="raw" dataType="bool" description="" device="Metro1">
+    <Datasource address="" dataType="bool"/>
+  </Tag>
+  <Tag name="CCU_IHM_PMA_EstaAireMA2" type="raw" dataType="bool" description="" device="Metro1">
+    <Datasource address="" dataType="bool"/>
+  </Tag>
+  <Tag name="CCU_IHM_PMA_EstaDisyMB1" type="raw" dataType="bool" description="Estado de disyuntor de MB1 de pantalla PMA" device="Metro1">
+    <Datasource address="" dataType="bool"/>
+  </Tag>
+  <Tag name="CCU_IHM_PMA_EstaDisyMB2" type="raw" dataType="bool" description="Estado de disyuntor de MB2 de pantalla PMA" device="Metro1">
+    <Datasource address="" dataType="bool"/>
+  </Tag>
+  <Tag name="ATP1_CodigoEstacion" type="raw" dataType="float" description="num of station 063 according to Station Mapping tab" device="Metro1">
+    <Datasource address="" dataType="float"/>
+  </Tag>
+  <Tag name="CCU_IHM_PMA_EstaAireMB1" type="raw" dataType="bool" description="" device="Metro1">
+    <Datasource address="" dataType="bool"/>
+  </Tag>
+  <Tag name="CCU_IHM_PMA_EstaAireMB2" type="raw" dataType="bool" description="" device="Metro1">
+    <Datasource address="" dataType="bool"/>
+  </Tag>
+  <Tag name="NOMBRE_ESTACION" type="raw" dataType="string" description="" device="Metro1">
+    <Datasource address="" dataType="string"/>
+  </Tag>
+  <Tag name="I312X09_16B_TBS_M25" type="raw" dataType="bool" description="Modo Manual +25" device="Metro1">
+    <Datasource address="" dataType="bool"/>
+  </Tag>
+  <Tag name="ANUL_LAZOS_TRAC" type="raw" dataType="bool" description="" device="Metro1">
+    <Datasource address="" dataType="bool"/>
+  </Tag>
+  <Tag name="TCU4_Brake_Torque_Achieved" type="raw" dataType="float" description="Fuerza realizada en freno en este momento" device="Metro1">
+    <Datasource address="" dataType="float"/>
+  </Tag>
+  <Tag name="TCU1_Filter_Capacitor_Voltage" type="raw" dataType="float" description="" device="Metro1">
+    <Datasource address="" dataType="float"/>
+  </Tag>
+  <Tag name="AX_VOLT_LINEA_MA1" type="raw" dataType="float" description="Tension de linea en semiunidad 1 en voltios" device="Metro1">
+    <Datasource address="" dataType="float"/>
+  </Tag>
+  <Tag name="CCU_IHM_PMA_EstaAlumRi" type="raw" dataType="bool" description="" device="Metro1">
+    <Datasource address="" dataType="bool"/>
+  </Tag>
+  <Tag name="AX_VOLT_LINEA_MA2" type="raw" dataType="float" description="Tension de linea en semiunidad 2 en voltios" device="Metro1">
+    <Datasource address="" dataType="float"/>
+  </Tag>
+  <Tag name="CCU_PuAbierta_RI_PU1" type="raw" dataType="bool" description="" device="Metro1">
+    <Datasource address="" dataType="bool"/>
+  </Tag>
+  <Tag name="CCU_PuAbierta_RI_PU2" type="raw" dataType="bool" description="" device="Metro1">
+    <Datasource address="" dataType="bool"/>
+  </Tag>
+  <Tag name="CCU_PuAbierta_RI_PU3" type="raw" dataType="bool" description="" device="Metro1">
+    <Datasource address="" dataType="bool"/>
+  </Tag>
+  <Tag name="CCU_PuAbierta_RI_PU4" type="raw" dataType="bool" description="" device="Metro1">
+    <Datasource address="" dataType="bool"/>
+  </Tag>
+  <Tag name="CCU_PuAbierta_RI_PU5" type="raw" dataType="bool" description="" device="Metro1">
+    <Datasource address="" dataType="bool"/>
+  </Tag>
+  <Tag name="CCU_PuAbierta_RI_PU6" type="raw" dataType="bool" description="" device="Metro1">
+    <Datasource address="" dataType="bool"/>
+  </Tag>
+  <Tag name="CCU_PuAbierta_RI_PU7" type="raw" dataType="bool" description="" device="Metro1">
+    <Datasource address="" dataType="bool"/>
+  </Tag>
+  <Tag name="CCU_PuAbierta_RI_PU8" type="raw" dataType="bool" description="" device="Metro1">
+    <Datasource address="" dataType="bool"/>
+  </Tag>
+  <Tag name="TR_LAZO_OK" type="raw" dataType="bool" description="El lazo de traccion esta cerrado" device="Metro1">
+    <Datasource address="" dataType="bool"/>
+  </Tag>
+  <Tag name="ANUL_LAZOS_FREN" type="raw" dataType="bool" description="" device="Metro1">
+    <Datasource address="" dataType="bool"/>
+  </Tag>
+  <Tag name="I508X12_08b_PUL_AN_HM" type="raw" dataType="bool" description="El pulsador de anulacion de hombre muerto esta activado" device="Metro1">
+    <Datasource address="" dataType="bool"/>
+  </Tag>
+  <Tag name="I108X12_08b_PUL_AN_HM" type="raw" dataType="bool" description="El pulsador de anulacion de hombre muerto esta activado" device="Metro1">
+    <Datasource address="" dataType="bool"/>
+  </Tag>
+  <Tag name="I311X11_10b_TIR_P1" type="raw" dataType="bool" description="Se ha activado el tirador de emergencia de la puerta 1 de R" device="Metro1">
+    <Datasource address="" dataType="bool"/>
+  </Tag>
+  <Tag name="I211X11_10b_TIR_P4" type="raw" dataType="bool" description="Se ha activado el tirador de emergencia de la puerta 4 de MB1" device="Metro1">
+    <Datasource address="" dataType="bool"/>
+  </Tag>
+  <Tag name="I411X11_10b_TIR_P4" type="raw" dataType="bool" description="Se ha activado el tirador de emergencia de la puerta 4 de MB2" device="Metro1">
+    <Datasource address="" dataType="bool"/>
+  </Tag>
+  <Tag name="I311X11_16b_TIR_P4" type="raw" dataType="bool" description="Se ha activado el tirador de emergencia de la puerta 4 de R" device="Metro1">
+    <Datasource address="" dataType="bool"/>
+  </Tag>
+  <Tag name="I311X11_12b_TIR_P5" type="raw" dataType="bool" description="Se ha activado el tirador de emergencia de la puerta 5 de R" device="Metro1">
+    <Datasource address="" dataType="bool"/>
+  </Tag>
+  <Tag name="I311X11_14b_TIR_P8" type="raw" dataType="bool" description="Se ha activado el tirador de emergencia de la puerta 8 de R" device="Metro1">
+    <Datasource address="" dataType="bool"/>
+  </Tag>
+  <Tag name="CCU_IHM_PMA_EstaAlumMA1" type="raw" dataType="bool" description="" device="Metro1">
+    <Datasource address="" dataType="bool"/>
+  </Tag>
+  <Tag name="CCU_IHM_PMA_EstaAlumMA2" type="raw" dataType="bool" description="" device="Metro1">
+    <Datasource address="" dataType="bool"/>
+  </Tag>
+  <Tag name="CCU_PuSelec_L1_MA1" type="raw" dataType="bool" description="Seleccion de lado 1 de puertas desde MA1" device="Metro1">
+    <Datasource address="" dataType="bool"/>
+  </Tag>
+  <Tag name="CCU_PuSelec_L1_MA2" type="raw" dataType="bool" description="Seleccion de lado 1 de puertas desde MA2" device="Metro1">
+    <Datasource address="" dataType="bool"/>
+  </Tag>
+  <Tag name="CCU_PuSelec_L2_MA1" type="raw" dataType="bool" description="Seleccion de lado 2 de puertas desde MA1" device="Metro1">
+    <Datasource address="" dataType="bool"/>
+  </Tag>
+  <Tag name="CCU_PuSelec_L2_MA2" type="raw" dataType="bool" description="Seleccion de lado 2 de puertas desde MA2" device="Metro1">
+    <Datasource address="" dataType="bool"/>
+  </Tag>
+  <Tag name="CCU_PuAbierta_MB1_PU1" type="raw" dataType="bool" description="" device="Metro1">
+    <Datasource address="" dataType="bool"/>
+  </Tag>
+  <Tag name="CCU_PuAbierta_MB1_PU2" type="raw" dataType="bool" description="" device="Metro1">
+    <Datasource address="" dataType="bool"/>
+  </Tag>
+  <Tag name="CCU_PuAbierta_MB1_PU3" type="raw" dataType="bool" description="" device="Metro1">
+    <Datasource address="" dataType="bool"/>
+  </Tag>
+  <Tag name="CCU_PuAbierta_MB1_PU4" type="raw" dataType="bool" description="" device="Metro1">
+    <Datasource address="" dataType="bool"/>
+  </Tag>
+  <Tag name="CCU_PuAbierta_MB1_PU5" type="raw" dataType="bool" description="" device="Metro1">
+    <Datasource address="" dataType="bool"/>
+  </Tag>
+  <Tag name="CCU_PuAbierta_MB1_PU6" type="raw" dataType="bool" description="" device="Metro1">
+    <Datasource address="" dataType="bool"/>
+  </Tag>
+  <Tag name="CCU_PuAbierta_MB1_PU7" type="raw" dataType="bool" description="" device="Metro1">
+    <Datasource address="" dataType="bool"/>
+  </Tag>
+  <Tag name="CCU_PuAbierta_MB1_PU8" type="raw" dataType="bool" description="" device="Metro1">
+    <Datasource address="" dataType="bool"/>
+  </Tag>
+  <Tag name="CCU_PuAbierta_MB2_PU1" type="raw" dataType="bool" description="" device="Metro1">
+    <Datasource address="" dataType="bool"/>
+  </Tag>
+  <Tag name="CCU_PuAbierta_MB2_PU2" type="raw" dataType="bool" description="" device="Metro1">
+    <Datasource address="" dataType="bool"/>
+  </Tag>
+  <Tag name="CCU_PuAbierta_MB2_PU3" type="raw" dataType="bool" description="" device="Metro1">
+    <Datasource address="" dataType="bool"/>
+  </Tag>
+  <Tag name="CCU_PuAbierta_MB2_PU4" type="raw" dataType="bool" description="" device="Metro1">
+    <Datasource address="" dataType="bool"/>
+  </Tag>
+  <Tag name="CCU_PuAbierta_MB2_PU5" type="raw" dataType="bool" description="" device="Metro1">
+    <Datasource address="" dataType="bool"/>
+  </Tag>
+  <Tag name="CCU_PuAbierta_MB2_PU6" type="raw" dataType="bool" description="" device="Metro1">
+    <Datasource address="" dataType="bool"/>
+  </Tag>
+  <Tag name="CCU_PuAbierta_MB2_PU7" type="raw" dataType="bool" description="" device="Metro1">
+    <Datasource address="" dataType="bool"/>
+  </Tag>
+  <Tag name="CCU_PuAbierta_MB2_PU8" type="raw" dataType="bool" description="" device="Metro1">
+    <Datasource address="" dataType="bool"/>
+  </Tag>
+  <Tag name="TCU2_Traction_Torque_Achieved" type="raw" dataType="float" description="Fuerza realizada en traccion en este momento" device="Metro1">
+    <Datasource address="" dataType="float"/>
+  </Tag>
+  <Tag name="CCU_IHM_PMA_EstaAlumMB1" type="raw" dataType="bool" description="" device="Metro1">
+    <Datasource address="" dataType="bool"/>
+  </Tag>
+  <Tag name="CCU_IHM_PMA_EstaAlumMB2" type="raw" dataType="bool" description="" device="Metro1">
+    <Datasource address="" dataType="bool"/>
+  </Tag>
+  <Tag name="CCU_SERIE_MA1" type="raw" dataType="bool" description="serial number coach MA1" device="Metro1">
+    <Datasource address="" dataType="bool"/>
+  </Tag>
+  <Tag name="CCU_SERIE_MB1" type="raw" dataType="float" description="serial number coach MB1" device="Metro1">
+    <Datasource address="" dataType="float"/>
+  </Tag>
+  <Tag name="CCU_IHM_PMA_EstaConvRiA" type="raw" dataType="bool" description="" device="Metro1">
+    <Datasource address="" dataType="bool"/>
+  </Tag>
+  <Tag name="CCU_IHM_PMA_EstaConvRiB" type="raw" dataType="bool" description="" device="Metro1">
+    <Datasource address="" dataType="bool"/>
+  </Tag>
+  <Tag name="I507X11_08b_PUL_AN_HM" type="raw" dataType="bool" description="El pulsador de anulacion de hombre muerto esta activado" device="Metro1">
+    <Datasource address="" dataType="bool"/>
+  </Tag>
+  <Tag name="I107X11_08b_PUL_AN_HM" type="raw" dataType="bool" description="El pulsador de anulacion de hombre muerto esta activado" device="Metro1">
+    <Datasource address="" dataType="bool"/>
+  </Tag>
+  <Tag name="CCU_SERIE_MA2" type="raw" dataType="bool" description="serial number coach MA2" device="Metro1">
+    <Datasource address="" dataType="bool"/>
+  </Tag>
+  <Tag name="CCU_SERIE_MB2" type="raw" dataType="float" description="serial number coach MB2" device="Metro1">
+    <Datasource address="" dataType="float"/>
+  </Tag>
+  <Tag name="TCU1_Traction_Torque_Achieved" type="raw" dataType="float" description="Fuerza realizada en traccion en este momento" device="Metro1">
+    <Datasource address="" dataType="float"/>
+  </Tag>
+  <Tag name="HOMBRE_MUERTO" type="raw" dataType="bool" description="" device="Metro1">
+    <Datasource address="" dataType="bool"/>
+  </Tag>
+  <Tag name="ANUL_LAZOS_STOP" type="raw" dataType="bool" description="" device="Metro1">
+    <Datasource address="" dataType="bool"/>
+  </Tag>
+  <Tag name="CCU_IHM_PMA_EstaPantMA1" type="raw" dataType="bool" description="" device="Metro1">
+    <Datasource address="" dataType="bool"/>
+  </Tag>
+  <Tag name="CCU_IHM_PMA_EstaPantMA2" type="raw" dataType="bool" description="" device="Metro1">
+    <Datasource address="" dataType="bool"/>
+  </Tag>
+  <Tag name="CCU_ICO_Fren" type="raw" dataType="bool" description="Variable de activacion del octavo icono de la franja superior (empezando por la" device="Metro1">
+    <Datasource address="" dataType="bool"/>
+  </Tag>
+  <Tag name="I313X10_12b_TBS_ATO" type="raw" dataType="bool" description="Modo ATO" device="Metro1">
+    <Datasource address="" dataType="bool"/>
+  </Tag>
+  <Tag name="CCU_IHM_PMA_EstaPantMB1" type="raw" dataType="bool" description="" device="Metro1">
+    <Datasource address="" dataType="bool"/>
+  </Tag>
+  <Tag name="CCU_IHM_PMA_EstaPantMB2" type="raw" dataType="bool" description="" device="Metro1">
+    <Datasource address="" dataType="bool"/>
+  </Tag>
+  <Tag name="CCU_PuAnula_RI_PU1" type="raw" dataType="bool" description="" device="Metro1">
+    <Datasource address="" dataType="bool"/>
+  </Tag>
+  <Tag name="CCU_PuAnula_RI_PU2" type="raw" dataType="bool" description="" device="Metro1">
+    <Datasource address="" dataType="bool"/>
+  </Tag>
+  <Tag name="CCU_PuAnula_RI_PU3" type="raw" dataType="bool" description="" device="Metro1">
+    <Datasource address="" dataType="bool"/>
+  </Tag>
+  <Tag name="CCU_PuAnula_RI_PU4" type="raw" dataType="bool" description="" device="Metro1">
+    <Datasource address="" dataType="bool"/>
+  </Tag>
+  <Tag name="CCU_PuAnula_RI_PU5" type="raw" dataType="bool" description="" device="Metro1">
+    <Datasource address="" dataType="bool"/>
+  </Tag>
+  <Tag name="CCU_PuAnula_RI_PU6" type="raw" dataType="bool" description="" device="Metro1">
+    <Datasource address="" dataType="bool"/>
+  </Tag>
+  <Tag name="CCU_PuAnula_RI_PU7" type="raw" dataType="bool" description="" device="Metro1">
+    <Datasource address="" dataType="bool"/>
+  </Tag>
+  <Tag name="CCU_PuAnula_RI_PU8" type="raw" dataType="bool" description="" device="Metro1">
+    <Datasource address="" dataType="bool"/>
+  </Tag>
+  <Tag name="I104X13_24b_DES_OK_P4" type="raw" dataType="bool" description="Indica que el desbloqueo de la puerta 4 esta en posicion normal de MA1" device="Metro1">
+    <Datasource address="" dataType="bool"/>
+  </Tag>
+  <Tag name="I504X13_24b_DES_OK_P4" type="raw" dataType="bool" description="Indica que el desbloqueo de la puerta 5 esta en posicion normal de MA2" device="Metro1">
+    <Datasource address="" dataType="bool"/>
+  </Tag>
+  <Tag name="I313X10_14b_TBS_ATP" type="raw" dataType="bool" description="Modo ATP" device="Metro1">
+    <Datasource address="" dataType="bool"/>
+  </Tag>
+  <Tag name="CCU_ICO_Disy" type="raw" dataType="bool" description="Variable de activacion del segundo icono de la franja superior (empezando por la" device="Metro1">
+    <Datasource address="" dataType="bool"/>
+  </Tag>
+  <Tag name="CCU_SPEED" type="raw" dataType="float" description="" device="Metro1">
+    <Datasource address="" dataType="float"/>
+  </Tag>
+  <Tag name="DISTANCIA_OBJ" type="raw" dataType="string" description="" device="Metro1">
+    <Datasource address="" dataType="string"/>
+  </Tag>
+  <Tag name="I105X10_22b_HM_OK" type="raw" dataType="bool" description="Notifica que el hombre muerto se realiza correctamente  Si se lee cero implica q" device="Metro1">
+    <Datasource address="" dataType="bool"/>
+  </Tag>
+  <Tag name="CCU_ICO_Comp" type="raw" dataType="bool" description="Variable de activacion del sexto icono de la franja superior (empezando por la i" device="Metro1">
+    <Datasource address="" dataType="bool"/>
+  </Tag>
+  <Tag name="CCU_ICO_Conv" type="raw" dataType="bool" description="Variable de activacion del cuarto icono de la franja superior (empezando por la" device="Metro1">
+    <Datasource address="" dataType="bool"/>
+  </Tag>
+  <Tag name="CCU_PuHabilita_L1_MA1" type="raw" dataType="bool" description="Habilitacion de lado 1 de puertas desde MA1" device="Metro1">
+    <Datasource address="" dataType="bool"/>
+  </Tag>
+  <Tag name="CCU_PuHabilita_L2_MA1" type="raw" dataType="bool" description="Habilitacion de lado 2 de puertas desde MA1" device="Metro1">
+    <Datasource address="" dataType="bool"/>
+  </Tag>
+  <Tag name="CCU_PuHabilita_L1_MA2" type="raw" dataType="bool" description="Habilitacion de lado 1 de puertas desde MA2" device="Metro1">
+    <Datasource address="" dataType="bool"/>
+  </Tag>
+  <Tag name="CCU_PuHabilita_L2_MA2" type="raw" dataType="bool" description="Habilitacion de lado 2 de puertas desde MA2" device="Metro1">
+    <Datasource address="" dataType="bool"/>
+  </Tag>
+  <Tag name="CCU_PuDesbl_MA1_PU6" type="raw" dataType="bool" description="" device="Metro1">
+    <Datasource address="" dataType="bool"/>
+  </Tag>
+  <Tag name="CCU_PuDesbl_MB1_PU6" type="raw" dataType="bool" description="" device="Metro1">
+    <Datasource address="" dataType="bool"/>
+  </Tag>
+  <Tag name="CCU_PuDesbl_MA1_PU7" type="raw" dataType="bool" description="" device="Metro1">
+    <Datasource address="" dataType="bool"/>
+  </Tag>
+  <Tag name="CCU_PuDesbl_MB1_PU7" type="raw" dataType="bool" description="" device="Metro1">
+    <Datasource address="" dataType="bool"/>
+  </Tag>
+  <Tag name="CCU_PuDesbl_MA1_PU4" type="raw" dataType="bool" description="" device="Metro1">
+    <Datasource address="" dataType="bool"/>
+  </Tag>
+  <Tag name="CCU_PuDesbl_MB1_PU4" type="raw" dataType="bool" description="" device="Metro1">
+    <Datasource address="" dataType="bool"/>
+  </Tag>
+  <Tag name="CCU_PuDesbl_MA1_PU5" type="raw" dataType="bool" description="" device="Metro1">
+    <Datasource address="" dataType="bool"/>
+  </Tag>
+  <Tag name="CCU_PuDesbl_MB1_PU5" type="raw" dataType="bool" description="" device="Metro1">
+    <Datasource address="" dataType="bool"/>
+  </Tag>
+  <Tag name="CCU_PuDesbl_MA1_PU2" type="raw" dataType="bool" description="" device="Metro1">
+    <Datasource address="" dataType="bool"/>
+  </Tag>
+  <Tag name="CCU_PuDesbl_MB1_PU2" type="raw" dataType="bool" description="" device="Metro1">
+    <Datasource address="" dataType="bool"/>
+  </Tag>
+  <Tag name="CCU_PuDesbl_MA1_PU3" type="raw" dataType="bool" description="" device="Metro1">
+    <Datasource address="" dataType="bool"/>
+  </Tag>
+  <Tag name="CCU_PuDesbl_MB1_PU3" type="raw" dataType="bool" description="" device="Metro1">
+    <Datasource address="" dataType="bool"/>
+  </Tag>
+  <Tag name="CCU_ICO_Aire" type="raw" dataType="bool" description="Variable de activacion del septimo icono de la franja superior (empezando por la" device="Metro1">
+    <Datasource address="" dataType="bool"/>
+  </Tag>
+  <Tag name="CCU_PuDesbl_MA1_PU1" type="raw" dataType="bool" description="" device="Metro1">
+    <Datasource address="" dataType="bool"/>
+  </Tag>
+  <Tag name="CCU_PuDesbl_MB1_PU1" type="raw" dataType="bool" description="" device="Metro1">
+    <Datasource address="" dataType="bool"/>
+  </Tag>
+  <Tag name="I508X09_08b_PUL_ANU_TS" type="raw" dataType="bool" description="Notifica si esta accionado el pulsador de anulacion de TrenStop" device="Metro1">
+    <Datasource address="" dataType="bool"/>
+  </Tag>
+  <Tag name="I108X09_08b_PUL_ANU_TS" type="raw" dataType="bool" description="Notifica si esta accionado el pulsador de anulacion de TrenStop" device="Metro1">
+    <Datasource address="" dataType="bool"/>
+  </Tag>
+  <Tag name="I312X09_06b_TBS_DO" type="raw" dataType="bool" description="Funcionamiento en Distancia Objetivo" device="Metro1">
+    <Datasource address="" dataType="bool"/>
+  </Tag>
+  <Tag name="TCU5_Traction_Torque_Achieved" type="raw" dataType="float" description="Fuerza realizada en traccion en este momento" device="Metro1">
+    <Datasource address="" dataType="float"/>
+  </Tag>
+  <Tag name="CCU_ICO_Esta" type="raw" dataType="bool" description="Icono de freno de estacionamiento aplicado" device="Metro1">
+    <Datasource address="" dataType="bool"/>
+  </Tag>
+  <Tag name="CCU_PuDesbl_MA1_PU8" type="raw" dataType="bool" description="" device="Metro1">
+    <Datasource address="" dataType="bool"/>
+  </Tag>
+  <Tag name="CCU_PuDesbl_MB1_PU8" type="raw" dataType="bool" description="" device="Metro1">
+    <Datasource address="" dataType="bool"/>
+  </Tag>
+  <Tag name="CCU_PuAnula_MB2_PU7" type="raw" dataType="bool" description="" device="Metro1">
+    <Datasource address="" dataType="bool"/>
+  </Tag>
+  <Tag name="CCU_PuAnula_MA2_PU7" type="raw" dataType="bool" description="" device="Metro1">
+    <Datasource address="" dataType="bool"/>
+  </Tag>
+  <Tag name="CCU_PuAbierta_MA1_PU1" type="raw" dataType="bool" description="" device="Metro1">
+    <Datasource address="" dataType="bool"/>
+  </Tag>
+  <Tag name="CCU_PuAbierta_MA1_PU2" type="raw" dataType="bool" description="" device="Metro1">
+    <Datasource address="" dataType="bool"/>
+  </Tag>
+  <Tag name="CCU_PuAbierta_MA1_PU3" type="raw" dataType="bool" description="" device="Metro1">
+    <Datasource address="" dataType="bool"/>
+  </Tag>
+  <Tag name="CCU_PuAbierta_MA1_PU4" type="raw" dataType="bool" description="" device="Metro1">
+    <Datasource address="" dataType="bool"/>
+  </Tag>
+  <Tag name="CCU_PuAbierta_MA1_PU5" type="raw" dataType="bool" description="" device="Metro1">
+    <Datasource address="" dataType="bool"/>
+  </Tag>
+  <Tag name="CCU_PuAbierta_MA1_PU6" type="raw" dataType="bool" description="" device="Metro1">
+    <Datasource address="" dataType="bool"/>
+  </Tag>
+  <Tag name="CCU_PuAbierta_MA1_PU7" type="raw" dataType="bool" description="" device="Metro1">
+    <Datasource address="" dataType="bool"/>
+  </Tag>
+  <Tag name="CCU_PuAbierta_MA1_PU8" type="raw" dataType="bool" description="" device="Metro1">
+    <Datasource address="" dataType="bool"/>
+  </Tag>
+  <Tag name="CCU_PuAbierta_MA2_PU1" type="raw" dataType="bool" description="" device="Metro1">
+    <Datasource address="" dataType="bool"/>
+  </Tag>
+  <Tag name="CCU_PuAbierta_MA2_PU2" type="raw" dataType="bool" description="" device="Metro1">
+    <Datasource address="" dataType="bool"/>
+  </Tag>
+  <Tag name="CCU_PuAbierta_MA2_PU3" type="raw" dataType="bool" description="" device="Metro1">
+    <Datasource address="" dataType="bool"/>
+  </Tag>
+  <Tag name="CCU_PuAbierta_MA2_PU4" type="raw" dataType="bool" description="" device="Metro1">
+    <Datasource address="" dataType="bool"/>
+  </Tag>
+  <Tag name="CCU_PuAbierta_MA2_PU5" type="raw" dataType="bool" description="" device="Metro1">
+    <Datasource address="" dataType="bool"/>
+  </Tag>
+  <Tag name="CCU_PuAbierta_MA2_PU6" type="raw" dataType="bool" description="" device="Metro1">
+    <Datasource address="" dataType="bool"/>
+  </Tag>
+  <Tag name="CCU_PuAbierta_MA2_PU7" type="raw" dataType="bool" description="" device="Metro1">
+    <Datasource address="" dataType="bool"/>
+  </Tag>
+  <Tag name="CCU_PuAbierta_MA2_PU8" type="raw" dataType="bool" description="" device="Metro1">
+    <Datasource address="" dataType="bool"/>
+  </Tag>
+  <Tag name="CCU_PuAnula_MB2_PU6" type="raw" dataType="bool" description="" device="Metro1">
+    <Datasource address="" dataType="bool"/>
+  </Tag>
+  <Tag name="CCU_PuAnula_MA2_PU6" type="raw" dataType="bool" description="" device="Metro1">
+    <Datasource address="" dataType="bool"/>
+  </Tag>
+  <Tag name="ANUL_LAZOS_HM" type="raw" dataType="bool" description="" device="Metro1">
+    <Datasource address="" dataType="bool"/>
+  </Tag>
+  <Tag name="CCU_PuAnula_MB2_PU5" type="raw" dataType="bool" description="" device="Metro1">
+    <Datasource address="" dataType="bool"/>
+  </Tag>
+  <Tag name="CCU_PuAnula_MA2_PU5" type="raw" dataType="bool" description="" device="Metro1">
+    <Datasource address="" dataType="bool"/>
+  </Tag>
+  <Tag name="CCU_IHM_CargaRI" type="raw" dataType="float" description="Weight in % for the load in coach R" device="Metro1">
+    <Datasource address="" dataType="float"/>
+  </Tag>
+  <Tag name="TCU2_Brake_Torque_Achieved" type="raw" dataType="float" description="Fuerza realizada en freno en este momento" device="Metro1">
+    <Datasource address="" dataType="float"/>
+  </Tag>
+  <Tag name="CCU_PuAnula_MB2_PU4" type="raw" dataType="bool" description="" device="Metro1">
+    <Datasource address="" dataType="bool"/>
+  </Tag>
+  <Tag name="CCU_PuAnula_MA2_PU4" type="raw" dataType="bool" description="" device="Metro1">
+    <Datasource address="" dataType="bool"/>
+  </Tag>
+  <Tag name="CCU_PuAnula_MB2_PU3" type="raw" dataType="bool" description="" device="Metro1">
+    <Datasource address="" dataType="bool"/>
+  </Tag>
+  <Tag name="CCU_PuAnula_MA2_PU3" type="raw" dataType="bool" description="" device="Metro1">
+    <Datasource address="" dataType="bool"/>
+  </Tag>
+  <Tag name="I507X11_02b_PUL_AN_LF" type="raw" dataType="bool" description="El pulsador de anulacion de lazo de emergencia esta activado" device="Metro1">
+    <Datasource address="" dataType="bool"/>
+  </Tag>
+  <Tag name="I107X11_02b_PUL_AN_LF" type="raw" dataType="bool" description="El pulsador de anulacion de lazo de emergencia esta activado" device="Metro1">
+    <Datasource address="" dataType="bool"/>
+  </Tag>
+  <Tag name="CCU_PuAnula_MB2_PU2" type="raw" dataType="bool" description="" device="Metro1">
+    <Datasource address="" dataType="bool"/>
+  </Tag>
+  <Tag name="CCU_PuAnula_MA2_PU2" type="raw" dataType="bool" description="" device="Metro1">
+    <Datasource address="" dataType="bool"/>
+  </Tag>
+  <Tag name="I312X09_12b_TBS_ATO" type="raw" dataType="bool" description="Modo ATO" device="Metro1">
+    <Datasource address="" dataType="bool"/>
+  </Tag>
+  <Tag name="TCU4_Traction_Torque_Achieved" type="raw" dataType="float" description="Fuerza realizada en traccion en este momento" device="Metro1">
+    <Datasource address="" dataType="float"/>
+  </Tag>
+  <Tag name="CCU_PuAnula_MB2_PU1" type="raw" dataType="bool" description="" device="Metro1">
+    <Datasource address="" dataType="bool"/>
+  </Tag>
+  <Tag name="CCU_PuAnula_MA2_PU1" type="raw" dataType="bool" description="" device="Metro1">
+    <Datasource address="" dataType="bool"/>
+  </Tag>
+  <Tag name="BCU1_B10_MB1_DM2" type="raw" dataType="float" description="Presion de cilindros de freno coche MB1" device="Metro1">
+    <Datasource address="" dataType="float"/>
+  </Tag>
+  <Tag name="BCU1_B10_MB2_DM2" type="raw" dataType="float" description="Presion de cilindros de freno coche MB2" device="Metro1">
+    <Datasource address="" dataType="float"/>
+  </Tag>
+  <Tag name="I103X11_24b_DES_OK_P3" type="raw" dataType="bool" description="Indica que el desbloqueo de la puerta 3 esta en posicion normal de MA1" device="Metro1">
+    <Datasource address="" dataType="bool"/>
+  </Tag>
+  <Tag name="I503X11_24b_DES_OK_P3" type="raw" dataType="bool" description="Indica que el desbloqueo de la puerta 6 esta en posicion normal de MA2" device="Metro1">
+    <Datasource address="" dataType="bool"/>
+  </Tag>
+  <Tag name="CCU_IHM_CargaMB1" type="raw" dataType="float" description="Weight in % for the load in coach MB1" device="Metro1">
+    <Datasource address="" dataType="float"/>
+  </Tag>
+  <Tag name="CCU_IHM_CargaMB2" type="raw" dataType="float" description="Weight in % for the load in coach MB2" device="Metro1">
+    <Datasource address="" dataType="float"/>
+  </Tag>
+</Tags>
