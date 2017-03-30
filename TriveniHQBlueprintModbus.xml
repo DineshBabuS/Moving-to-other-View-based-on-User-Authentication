@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Blueprint name="ConfigName" tagPrefix="TriveniHQ">
+<Tags>
+<Tag name="Temperature_3_RTD_200" dataType="float" description="Temperature_3_RTD_200" device="SmartGateway">
+<Datasource address="2:ModbusTriveniHQ.SmartGateway.Temperature_3_RTD_200" dataType="float" />
+</Tag>
+
+<Tag name="Temperature_3_PT_200" dataType="float" description="Temperature_3_PT_200" device="SmartGateway">
+<Datasource address="2:ModbusTriveniHQ.SmartGateway.Temperature_3_PT_200" dataType="float" />
+</Tag>
+
+<Tag name="Temperature_3_RTD_201" dataType="float" description="Temperature_3_RTD_201" device="SmartGateway">
+<Datasource address="2:ModbusTriveniHQ.SmartGateway.Temperature_3_RTD_201" dataType="float" />
+</Tag>
+
+<Tag name="Temperature_3_RTD_220" dataType="float" description="Temperature_3_RTD_220" device="SmartGateway">
+<Datasource address="2:ModbusTriveniHQ.SmartGateway.Temperature_3_RTD_220" dataType="float" />
+</Tag>
+
+<Tag name="Temperature_3_RTD_221" dataType="float" description="Temperature_3_RTD_221" device="SmartGateway">
+<Datasource address="2:ModbusTriveniHQ.SmartGateway.Temperature_3_RTD_221" dataType="float" />
+</Tag>
+
+</Tags>
+
+
+<Devices>
+<Device name="SmartGateway" description="Blueprint for ModbusTriveniHQ" protocol="OPCUA">
+
+<Attributes>
+                <Attribute name="EndpointUri">opc.tcp://127.0.0.1:49310</Attribute>
+                <Attribute name="SecurityPolicy">None</Attribute>
+                <Attribute name="MessageSecurityMode">None</Attribute>
+                <Attribute name="AuthenticationMode">Anonymous</Attribute>
+</Attributes>
+
+</Device>
+</Devices>
+
+
+<Assets>
+<Asset name="Triveni" type="Enterprise">
+<Asset name="Bangalore HQ" type="Site">
+<Asset name="Zone1" type="Area">
+<Asset name="Line1" type="ProcessCell">
+<Asset name="Turbine Test" type="Unit" id="1" class="ScaleTest" />
+</Asset>
+</Asset>
+</Asset>
+</Asset>
+</Assets>
+</Blueprint>
+
